@@ -29,4 +29,4 @@
     }
     
 <h1>Nuget</h1>
-    Link:https://www.nuget.org/packages/Cyaim.Couchbase.Manager
+    https://www.nuget.org/packages/Cyaim.Couchbase.Manager
