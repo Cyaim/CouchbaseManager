@@ -1,5 +1,9 @@
 # CouchbaseManager
-
+<h1>Install</h1>
+    Run one of the following lines of code or in nuget search Cyaim.Couchbase.Manager
+    Install-Package Cyaim.Couchbase.Manager -Version 0.1.2.2
+    dotnet add package Cyaim.Couchbase.Manager --version 0.1.2.2
+    paket add Cyaim.Couchbase.Manager --version 0.1.2.2
 <h1>Now start</h1>
 
     Config config = new Config();
