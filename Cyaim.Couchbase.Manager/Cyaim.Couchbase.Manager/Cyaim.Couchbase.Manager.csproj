@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageProjectUrl>http://developer.cyaim.com</PackageProjectUrl>
+    <Company>Cyaim Studio</Company>
+    <Authors>Psyche</Authors>
+    <Version>0.1.2.2</Version>
+    <Description>Couchbase Manager</Description>
+    <PackageLicenseUrl>https://github.com/dotnet/standard/blob/master/LICENSE.TXT</PackageLicenseUrl>
+    <PackageReleaseNotes></PackageReleaseNotes>
+    <AssemblyVersion>0.1.2.2</AssemblyVersion>
+    <FileVersion>0.1.2.2</FileVersion>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>Cyaim.Nuget.pfx</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>bin\Debug\netstandard2.0\Cyaim.Couchbase.Manager.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>bin\Release\netstandard2.0\Cyaim.Couchbase.Manager.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CouchbaseNetClient" Version="2.6.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="9.0.1" />
+  </ItemGroup>
+
+</Project>

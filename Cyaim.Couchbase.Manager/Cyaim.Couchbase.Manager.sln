@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cyaim.Couchbase.Manager", "Cyaim.Couchbase.Manager\Cyaim.Couchbase.Manager.csproj", "{3ACBE4B5-F83C-4844-972A-3EB582F13DEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cyaim.Couchbase.Test", "Cyaim.Couchbase.Test\Cyaim.Couchbase.Test.csproj", "{B0F2F538-F7C1-4C95-BD10-99B08230345D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3ACBE4B5-F83C-4844-972A-3EB582F13DEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ACBE4B5-F83C-4844-972A-3EB582F13DEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ACBE4B5-F83C-4844-972A-3EB582F13DEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ACBE4B5-F83C-4844-972A-3EB582F13DEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0F2F538-F7C1-4C95-BD10-99B08230345D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0F2F538-F7C1-4C95-BD10-99B08230345D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0F2F538-F7C1-4C95-BD10-99B08230345D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0F2F538-F7C1-4C95-BD10-99B08230345D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1615FCBB-1C85-4DBD-A720-E90DF4A15752}
+	EndGlobalSection
+EndGlobal
